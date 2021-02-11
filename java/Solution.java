@@ -4,7 +4,6 @@ class Solution {
         int length_ = arr.length - 1;
         for (int left = 0; left <= length_ - possibleDups; left++) {
             if (arr[left] == 0) {
-
                 if (left == length_ - possibleDups) {
                     arr[length_] = 0;
                     length_ -= 1;
